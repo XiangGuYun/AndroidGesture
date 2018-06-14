@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text="GestureDetector.OnGestureListener测验"/>
+
+    <TextView
+        android:id="@+id/tvTest"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        android:gravity="center"
+        android:background="#eeeeee"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:onClick="btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="461dp"
+        android:text="下个测验"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+
+</FrameLayout>
